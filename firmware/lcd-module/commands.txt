@@ -1,0 +1,21 @@
+Commands :
+============
+
+ESC [ 60 ; {value} m		Set backlight
+ESC [ 61 ; {value} m		Set backlight (dim mode)
+ESC [ 65 ; {value} m		Set backlight auto-dim delay
+ESC [ 68 ; {speed} m		Blink backlight	(0= no blinking)
+ESC [ 70 ; {value} m		Set contrast
+ESC [ m						Restore backlight and contrast values to EEPROM
+
+ESC [ 25 h					Show cursor
+ESC [ 26 h					Show cursor block
+ESC [ 50 h					Turn on display
+
+ESC [ 25 l					Hide cursor
+ESC [ 26 l					Hide cursor block
+ESC [ 50 l					Turn off display
+
+
+
+ESC [ !						Reset display
