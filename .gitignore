@@ -40,7 +40,7 @@ eagle.epf
 
 gerber
 .directory
-
+.kate-swp
 
 # Ignore compiled objects (GPASM) #
 *.o
